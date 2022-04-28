@@ -1,5 +1,4 @@
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
-import { useState } from "react";
 import "./App.css";
 import Game from "./components/Game";
 import React from 'react';
@@ -21,6 +20,6 @@ function App() {
       <AmplifySignOut />
     </div>
   );
-} 
+}
 
 export default withAuthenticator(App);
